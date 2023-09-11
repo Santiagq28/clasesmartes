@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <a href="../index.html"><h2><- Go Back</h2></a>
+    </div>
+
+    <h1>Forms</h1>
+    
+    <form action="../index.html" method="get">
+        <!-- Etiqueta de Entrada de Texto -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <!-- Etiqueta de Contraseña -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <br><br>
+        <!-- Etiqueta de Área de Texto -->
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="3" cols="60"></textarea>
+        
+        <br><br>
+        <!-- Etiqueta de Botón de Radio -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">M</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">F</label>
+        
+        <br><br>
+        <label>Options:</label>
+        <input type="checkbox" id="option1" name="options[]" value="Option 1">
+        <label for="opcion1">Option 1</label>
+        <input type="checkbox" id="option2" name="options[]" value="Option 2">
+        <label for="option2">Option 2</label>
+        
+        <br><br>
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="Bogota">Bogota</option>
+            <option value="Ocaña">Ocaña</option>
+            <option value="Cucuta">Cucuta</option>
+            <option value="Medellin">Medellin</option>
+        </select>
+
+
+        <br><br>
+        <label>Colors:</label>
+        <input type="color">
+
+
+        <br><br>
+        <label>Numbers:</label>
+        <input type="number">
+
+        <br><br>
+
+        <label>Range:</label>
+        <input type="range">
+
+        <br><br>
+        <label>Date:</label>
+        <input type="date">
+
+        <br><br>
+        <label>Month:</label>
+        <input type="month">
+
+        <br><br>
+        <label>Week:</label>
+        <input type="week">
+
+        <br><br>
+        <label>Time:</label>
+        <input type="time">
+
+        <br><br>
+        <label>Datetime:</label>
+        <input type="datetime-local">
+
+        <br><br>
+        <input type="submit" value="Send">
+        
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
