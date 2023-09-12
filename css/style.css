@@ -1,0 +1,60 @@
+/* Importar tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,200&display=swap');
+
+/* Selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Selector de etiquetas */
+a{
+    margin-left: 30px;
+    color: orange;
+}
+/* Selector por id */
+#option_one, #option_three {
+    color: blue;
+}
+#option_two{
+    color: yellowgreen;
+}
+/* Selector por clases */
+.group_options{
+    background-color: white;
+    margin: 5px;
+
+}
+.group_class{
+    padding: 10px;
+}
+/* Selector pseudoclases */
+.group_options:hover{
+    background-color: yellow;
+    color: orange;
+}
+
+/* Selector por atributo */
+[disabled]{
+    background-color: red;
+}
+/* selectores descendentes */
+#papa{
+    border: 10px double red;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px;
+}
+/* selector adyacente */
+#papa > .hermanos + .hermanos span{
+    color: aqua;
+}
+/* selector descendente */
+#papa a {
+    color: blue;
+}
+/* selector hijo */
+#papa > #etiqueta > a{
+    color: #ff7700;
+}
