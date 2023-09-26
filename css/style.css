@@ -100,7 +100,7 @@ a{
 /* media querys */
 @media (min-width:800px) and (max-width:1200px){
     body{
-        background-color: red;
+        background-color:red;
     }
     h1{
         text-align: center;
