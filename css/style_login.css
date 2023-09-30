@@ -29,7 +29,7 @@ h1{
     place-items: center;
     background-image: url(https://img.freepik.com/free-photo/space-galaxy-background-generative-ai_191095-601.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
     opacity: 0.5;
 }
 
@@ -187,5 +187,5 @@ h1{
 }
 
 .my_form_signup a:hover{
-    color:var(--primary)
+    color:var(--secondary-hover)
 }
